@@ -1,5 +1,6 @@
 
 {
+    "version": 2,
     "builds":[
         {
             "src": "fin_maestro_kin/main.py",

@@ -1,0 +1,15 @@
+
+{
+    "builds":[
+        {
+            "src": "fin_maestro_kin/main.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes":[
+        {
+            "src": "/(.*)",
+            "dest": "fin_maestro_kin/main.py"
+        }
+    ]
+}

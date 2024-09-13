@@ -4,7 +4,8 @@
     "builds":[
         {
             "src": "fin_maestro_kin/main.py",
-            "use": "@vercel/python"
+            "use": "@vercel/python",
+            "config": { "runtime": "python3.9" }
         }
     ],
     "routes":[

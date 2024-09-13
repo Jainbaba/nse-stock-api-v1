@@ -7,7 +7,9 @@ dist/
 
 # Ignore virtual environment
 venv/
-node_modules
+node_modules/
+sentiment_analysis/
+trend_detector/
 
 # Ignore local development files
 .vscode/
